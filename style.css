@@ -1,79 +1,136 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body{
-    margin: 1em;
-
-}
-header{
+  }
+  body {
+    background-color: #e4eef1;
+  }
+  header {
     width: 100%;
     height: 20%;
-    background-color: #4B93BF;
+    background-color: #4b93bf;
     display: flex;
-}
-#logo{
+  }
+  #logo {
     width: 8%;
     margin: 1em;
-}
-h2{
-    width: 8em;
-    
-    
+  }
+  h2.textLogo {
     display: flex;
     justify-items: center;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     color: aliceblue;
-    font-size: 1em;
     align-items: center;
-    
-}
-nav{
+  }
+  nav {
     width: 100%;
-    
-
-}
-
-ul{
+  }
+  
+  ul {
     height: 100%;
-   font-family: 'Josefin Sans', sans-serif;
-   display: flex;
-   justify-content: flex-end;
-   align-items: stretch;
-
-
-}
-li{
+    font-family: "Josefin Sans", sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+  }
+  li {
     width: 20%;
     height: 100%;
-    
     color: azure;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
-}
-section{
-    
+  }
+  
+  li:hover{
+    cursor: pointer;
+  }
+  
+  .textPrincipal {
     display: flex;
     align-items: stretch;
     justify-content: space-around;
-    background-color: #E4EEF1;
-
-
-}
-p{
-    
+    background-color: #e4eef1;
+  }
+  #principal {
     width: 40%;
-    color: #0F468C;
+    color: #0f468c;
     font-size: 1.3em;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
-}
-.inverno{
- 
+ }
+  #casa {
+    
+    display: flex;
+    height: 40vh;
+    background-color: #4b93bf;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .grama{
+    display: flex;
+    
+  }
+  .Cards{
+  
+    display: flex;
+    
+    
+  }
+  .ursos{
+    color: #0f468c solid;
+    width: 24vw;
+  }
+  
+  h1 {
+    width: 45%;
+    color: #e4eef1;
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+footer {
+    height: 17vh;
+    
+    display: flex;
+    background-color: #4b93bf;
+   
+  }
+  
+#redeSociais {
+    width: 17vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.sobre{
+    width: 40%;
+    height: 7vh;
+    color: #e4eef1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     
 }
+.layout{
+    width: 47vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    color: azure;
+    margin-top: 2em;
+    margin-left: -17em;
+    font-size: 20px;
+}
+  
+.pinguin{
+    display: flex;
+    width: 10vw;
+    
+  }
